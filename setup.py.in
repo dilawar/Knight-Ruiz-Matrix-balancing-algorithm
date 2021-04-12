@@ -24,10 +24,12 @@ class BinaryDistribution(setuptools.Distribution):
 
 setuptools.setup(
     name="krbalancing",
+    description="A c++ extension for python to balance a matrix using KR method",
     version=__version__,
     author="Leily Rabbani",
     author_email="leila.rabbani@gmail.com",
-    description="A c++ extension for python to balance a matrix using KR method",
+    maintainer="Dilawar Singh",
+    maintainer_email="dilawar.s.rajput@gmail.com",
     packages=["krbalancing"],
     package_dir={"krbalancing": "."},
     package_data={"krbalancing": ["krbalancing*.*"]},
